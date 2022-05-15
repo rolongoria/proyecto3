@@ -1,0 +1,43 @@
+/* canvas{
+
+    width:1000px !important;
+    height:600px !important;
+  
+  } */
+
+.header, .footer{
+    background-color: rgb(255, 243, 94);
+}
+
+.header h5{
+    color: #d01010;
+    font-family: 'DM Sans', sans-serif;
+    /* font-size: 28px; */
+    font-size: 2vw;
+}
+
+.header h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+}
+/* .header h1::first-letter {
+    font-size: 200%;  
+} */
+
+
+
+.header p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1vw;
+}
+
+.btn{
+    /* background-color: #36454F; */
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn-group button:hover, button:active{
+    background-color: #353935;
+}
+
