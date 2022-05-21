@@ -22,77 +22,79 @@
     <title>Real Time Billionaires</title>
   </head>
   <body>
-    <!--  -->
-    <div class="container p-3 text-center header">
-      <h5>THE WORLD'S REAL-TIME</h5>
-      <h1>BILLIONAIRES</h1>
-      <p>Source: Forbes 400</p>
-    </div>
+    <!-- HEADER -->
+    <header>
+      <div class="container p-3 text-center header">
+        <h5>THE WORLD'S REAL-TIME</h5>
+        <h1>BILLIONAIRES</h1>
+        <p>Source: Forbes 400</p>
+      </div>
+    </header>
 
-    <div class="container">
-      <div class="row mt-2">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 d-flex justify-content-around">
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button id="top20" type="button" class="btn btn-dark">
-              Top 20 Billionaires
-            </button>
-            <button id="youngest" type="button" class="btn btn-dark">
-              Top 10 Youngest Billionaires
-            </button>
-            <button id="women" type="button" class="btn btn-dark">
-              Top 10 Richest Women
-            </button>
-            <button id="men" type="button" class="btn btn-dark">
-              Top 10 Richest Men
-            </button>
+    <!-- MAIN SECTION -->
+    <main>
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8 d-flex justify-content-around">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button id="top20" type="button" class="btn btn-dark">
+                Top 20 Billionaires
+              </button>
+              <button id="youngest" type="button" class="btn btn-dark">
+                Top 10 Youngest Billionaires
+              </button>
+              <button id="women" type="button" class="btn btn-dark">
+                Top 10 Richest Women
+              </button>
+              <button id="men" type="button" class="btn btn-dark">
+                Top 10 Richest Men
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <!-- <h3>Column 1</h3> -->
+          </div>
+          <div class="col-sm-8">
+            <!-- <h3>Column 2</h3> -->
+            <div>
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <!-- <h3>Column 3</h3> -->
           </div>
         </div>
-        <div class="col-sm-2"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-2">
-          <!-- <h3>Column 1</h3> -->
-        </div>
-        <div class="col-sm-8">
-          <!-- <h3>Column 2</h3> -->
-          <div>
-            <canvas id="myChart"></canvas>
+        <div class="row mt-5">
+          <div class="col-sm-2">
+            <!-- <h3>Column 1</h3> -->
+          </div>
+          <div class="col-sm-8">
+            <!-- <h3>Column 2</h3> -->
+            <div
+              id="container-data"
+              class="d-flex justify-content-around flex-wrap"
+            ></div>
+          </div>
+          <div class="col-sm-2">
+            <!-- <h3>Column 3</h3> -->
           </div>
         </div>
-        <div class="col-sm-2">
-          <!-- <h3>Column 3</h3> -->
-        </div>
       </div>
-
-      <div class="row mt-5">
-        <div class="col-sm-2">
-          <!-- <h3>Column 1</h3> -->
-        </div>
-        <div class="col-sm-8">
-          <!-- <h3>Column 2</h3> -->
-          <div
-            id="container-data"
-            class="d-flex justify-content-around flex-wrap"
-          ></div>
-        </div>
-        <div class="col-sm-2">
-          <!-- <h3>Column 3</h3> -->
-        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container p-2 text-center footer">
+        <h5>U-Camp</h5>
+        <h6>Rodrigo Alberto Longoria Zamarrón</h6>
+        <a href="https://github.com/rolongoria/proyecto3" target="_blank"
+          ><img src="./Assets/images/GitHub-Mark-32px.png" alt="GitHub"
+        /></a>
       </div>
-
-      <!-- FOOTER -->
-      <footer>
-        <div class="container p-2 text-center footer">
-          <h5>U-Camp</h5>
-          <h6>Rodrigo Alberto Longoria Zamarrón</h6>
-          <a href="https://github.com/rolongoria/proyecto3" target="_blank"
-            ><img src="./Assets/images/GitHub-Mark-32px.png" alt="GitHub"
-          /></a>
-        </div>
-      </footer>
-    </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
