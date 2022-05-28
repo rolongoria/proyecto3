@@ -2,7 +2,7 @@ const container = document.getElementById('container-data');
 const renderData = (results) => {
     let cardText = '';
     results.forEach((item) => {  
-        // console.log(item);
+
 
         cardText = `
             <div class="card m-1 shadow-lg p-3 mb-5 bg-white rounded" style="width:200px">
@@ -20,7 +20,6 @@ const renderData = (results) => {
             container.innerHTML += cardText;
     });
 
-    //console.log(container.innerHTML);
 
 };
 

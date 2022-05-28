@@ -12,16 +12,15 @@ const men = 'https://forbes400.herokuapp.com/api/forbes400/men?limit=10';
 
 //Fetch billionaires from forbes 400 api using different urls
 const getBillionaires = async (address) => {
-    //document.getElementById('myChart').clear();
+    
     
 
     const url = address;
 
     const res = await fetch(url);
-    //console.log(res);
+    
     const data = await res.json();
-    //console.log(data);
-    //printData(data);
+
     setGraph(data);
     const container = document.getElementById('container-data');
     container.innerHTML = '';
